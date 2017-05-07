@@ -1,0 +1,11 @@
+body {
+     font-family: fantasy
+}
+
+h1, h3 {
+ text-align: center; 
+}
+
+p, ul, button {
+   margin: 30px; 
+}
