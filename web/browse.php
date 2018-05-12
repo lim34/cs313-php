@@ -1,8 +1,8 @@
-<!DOCTYPE html>
 <?php 
 session_start();
 ?>
 
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
@@ -27,7 +27,7 @@ session_start();
       <li><input type="checkbox" name="items[]" value="Super Old Chinese Ginseng"> Super Old Chinese Ginseng - $199.00 </li>
       </ul>
     
-    <input type="submit">
+    <input type="submit" value="Add to Cart">
     </button>
 </form>
 <form action="header2.php" method="GET">
