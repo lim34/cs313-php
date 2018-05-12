@@ -10,7 +10,7 @@
 		<form action="header4.php" method="POST">
 			Street Name:<br>
 			<input type="text" name="street" placeholder="525 S. Center St."><br>
-			House Number:<br>
+			Apt Number:<br>
 			<input type="text" name="number" placeholder="#200"><br>
 			City:<br>
 			<input type="text" name="city" placeholder="Rexburg"><br>
