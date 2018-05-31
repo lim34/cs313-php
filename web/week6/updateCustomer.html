@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {background-color: beige; font-family: arial;}
+		</style>
+	</head>
+	<body>
+		<h1>Update Customer Info</h1>
+		<div style="width:600px; height:80px; border: 2px solid black;">
+		   * Our customer data includes sensitive information. <br>
+		   * Therefore, Make sure to have all the correct information for your customer data.<br>
+		   * Otherwise, it won't have matching data.                                         <br></div>
+		   <br>
+		<form name="form" action="updateCustomer.php" method="POST">
+			First Name: <input type="text" name="firstName"><br>
+			Last Name:  <input type="text" name="lastName"><br>
+			Phone Number: <input type="text" name="phoneNumber" placeholder="xxx-xxx-xxxx"><br>
+			Email Address: <input type="text" name="email"><br>
+			<input type="submit" value="Submit the form"/>	
+		</form>
+		<form name="form" action="redirectWebsite.php" method="POST">
+			<input type="submit" value="Go back to Main page"/>	
+		</form>
+	</body>
+</html>
