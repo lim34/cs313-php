@@ -1,0 +1,83 @@
+body {background: black; font-family: arial; color: white;}
+h1 {text-align: center;}
+#mainImage {padding: 30px; margin-bottom: 30px; font-size: 21px; font-weight: 200; line-height: 2.1428571435;
+color: inherit; background: url('gif.gif'); background-size: 100%; background-repeat: no-repeat; 
+text-decoration-color: yellow;}
+#customer, #about, #portfolio, #contact {float:left; width: 25%;}
+
+#mainTitle, #sessionForm, #contactForm, #thankYou {
+	width: 95%;
+	margin: 2%;
+	text-align: center;
+}
+
+#info {
+	font-size: 30px;
+}
+#thankYou {
+	font-size: 80px;
+	height: 400px;
+}
+
+#createCustomer, #updateCustomer, #sessionInfo {
+	text-align: center;
+	border: dotted 5px white;
+	height: 570px;
+}
+
+#updateBox {
+	text-align: center;
+}
+
+#me {display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	height: 400px; 
+	width: 40%; 
+	border-radius: 25px; 
+	align-content: center; 
+	-webkit-appearance: none;}
+
+.aboutImg {
+	float: left;
+	margin: 30px;
+}
+
+.aboutPrg, .photos, .videos, .price {
+	margin: 5%;
+}
+
+iframe {
+	width: 80%;
+	height: 80%;
+}
+
+.imgSource {
+	width: 80%;
+	height: 80%;
+	margin: 5%;
+}
+
+.sessionName {
+	width: 100px;
+	height: 20px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+a:visited, a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+}
+
